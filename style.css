@@ -1,0 +1,26 @@
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+
+h1 {
+  color: purple;
+  font-family: "Dancing Script";
+}
+
+div {
+  border: 1px solid darkgray;
+  margin: 0 auto;
+  padding: 20px;
+  width: 300px;
+}
+
+ul li {
+  list-style: none;
+  position: relative;
+  padding: 3px 0 2px 25px;
+}
+
+ul li::before {
+  content: '*';
+  position: absolute;
+  top: 6px;
+  left: 0;
+}
